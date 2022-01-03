@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/car.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script
+      src="https://kit.fontawesome.com/7e441f621a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>PSD to HTML</title>
+  </head>
+  <body>
+    <!--Start Header-->
+    <header>
+      <div class="container">
+        <nav
+          class="navbar navbar-expand-lg navbar-dark"
+          uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky"
+        >
+          <a class="navbar-brand" href="#"
+            ><img src="images/logo1.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Order Now</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <div class="header-info my-5">
+              <h3>Book Cab Now</h3>
+              <h1>+123 4567 8900</h1>
+              <p>www.psdfreebies.com</p>
+            </div>
+            <img src="images/bg-car.png" class="img-fluid mt-4" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--End Header-->
+    <!--Start Cab-->
+    <section class="cab py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-sm-6 col-12">
+            <div class="cab-left py-5 mt-5">
+              <h3 class="text-uppercase fw-bolder">Best In City</h3>
+              <h1 class="text-uppercase fw-bolder">
+                Trusted Cab Servies in New York
+              </h1>
+              <p class="font-custom-weight">
+                Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+                Phasellus hendrerit, massa efficitur dapibus pulvinar, sapien
+                eros sodales ante, euismod aliquet nulla metus a mauris.Quisque
+                sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus
+                hendrerit, massa efficitur dapibus pulvinar, sapien eros sodales
+                ante, euismod aliquet nulla metus a mauris.
+              </p>
+              <button class="btn btn-dark my-4" type="button">READ MORE</button>
+            </div>
+          </div>
+          <div class="col-md-5 col-sm-6 col-12 pt-5">
+            <div class="cab-right mt-5">
+              <h1 class="fw-bolder text-white">
+                BOOK A <span class="text-orange">CAB</span>
+              </h1>
+              <form action="#" class="p-4">
+                <input
+                  type="text"
+                  placeholder="Name"
+                  class="form-control"
+                  id="Name"
+                />
+                <input
+                  type="text"
+                  placeholder="Phone"
+                  class="form-control"
+                  id="Phone"
+                />
+                <input
+                  type="text"
+                  placeholder="When"
+                  class="form-control"
+                  id="When"
+                />
+                <input
+                  type="text"
+                  placeholder="Time"
+                  class="form-control"
+                  id="Time"
+                />
+                <input
+                  type="text"
+                  placeholder="Start"
+                  class="form-control"
+                  id="Start"
+                />
+                <input
+                  type="text"
+                  placeholder="End"
+                  class="form-control"
+                  id="End"
+                />
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Choose Vehicle</option>
+                  <option value="Van">Van</option>
+                  <option value="Taxi">Taxi</option>
+                  <option value="Bus">Bus</option>
+                </select>
+                <a href="#" class="mt-5 btn btn-dark w-100 text-decoration-none"
+                  >Submit</a
+                >
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Cab-->
+    <!--Start Cab-->
+    <section class="main-card py-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <h3 class="text-uppercase fw-bolder text-orange">Our</h3>
+            <h1 class="text-uppercase fw-bolder text-dark">Tariffs</h1>
+          </div>
+        </div>
+        <div class="row mt-5 py-5">
+          <!--Card 1-->
+          <div class="col-md-4 col-12">
+            <div class="card bg-grey text-center">
+              <div class="card-car">
+                <img src="images/car.png" class="img-fluid" alt="" />
+              </div>
+              <div class="card-body">
+                <h2 class="mt-3 fw-bolder text-uppercase">Economy Class</h2>
+                <p class="py-3">
+                  Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+                  Phasellus hendrerit, massa efficitur.
+                </p>
+                <h1 class="text-uppercase fw-bolder text-orange">$1,5/mi</h1>
+                <button
+                  class="btn btn-dark mt-4 bg-yellow border-yellow text-dark"
+                  type="button"
+                >
+                  READ MORE
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--Card 1-->
+          <!--Card 2-->
+          <div class="col-md-4 col-12">
+            <div class="card bg-yellow text-center">
+              <div class="card-car">
+                <img src="images/car.png" class="img-fluid" alt="" />
+              </div>
+              <div class="card-body">
+                <h2 class="mt-3 fw-bolder text-uppercase">Economy Class</h2>
+                <p class="py-3">
+                  Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+                  Phasellus hendrerit, massa efficitur.
+                </p>
+                <h1 class="text-uppercase fw-bolder text-dark">$1,5/mi</h1>
+                <button class="btn btn-secondary mt-4" type="button">
+                  READ MORE
+                </button>
+              </div>
+              <div class="card-star">
+                <img src="images/star.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <!--Card 2-->
+          <!--Card 3-->
+          <div class="col-md-4 col-12">
+            <div class="card bg-grey text-center">
+              <div class="card-car">
+                <img src="images/car.png" class="img-fluid" alt="" />
+              </div>
+              <div class="card-body">
+                <h2 class="mt-3 fw-bolder text-uppercase">Economy Class</h2>
+                <p class="py-3">
+                  Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+                  Phasellus hendrerit, massa efficitur.
+                </p>
+                <h1 class="text-uppercase fw-bolder text-orange">$1,5/mi</h1>
+                <button
+                  class="btn btn-dark mt-4 bg-yellow border-yellow text-dark"
+                  type="button"
+                >
+                  READ MORE
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--Card 3-->
+        </div>
+      </div>
+    </section>
+    <!--End Cab-->
+    <!--Start Content-->
+    <section class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="info text-center">
+              <h3 class="text-orange text-uppercase fw-bolder">We do best</h3>
+              <h1 class="text-white text-uppercase fw-bolder">Than you wish</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-6 py-5">
+            <div class="content-info">
+              <img src="images/icon1.png" alt="" class="img-fluid" />
+              <div class="content-text">
+                <h4 class="text-orange text-uppercase fw-bolder py-1">
+                  Home Pickup
+                </h4>
+                <p class="text-white">
+                  Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+                  Phasellus hendrerit, massa efficitur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 py-5">
+            <div class="content-info">
+              <img src="images/icon2.png" alt="" class="img-fluid" />
+              <div class="content-text">
+                <h4 class="text-orange text-uppercase fw-bolder py-1">
+                  Home Pickup
+                </h4>
+                <p class="text-white">
+                  Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+                  Phasellus hendrerit, massa efficitur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 py-5">
+            <div class="content-info">
+              <img src="images/icon3.png" alt="" class="img-fluid" />
+              <div class="content-text">
+                <h4 class="text-orange text-uppercase fw-bolder py-1">
+                  Home Pickup
+                </h4>
+                <p class="text-white">
+                  Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+                  Phasellus hendrerit, massa efficitur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 py-5">
+            <div class="content-info">
+              <img src="images/icon4.png" alt="" class="img-fluid" />
+              <div class="content-text">
+                <h4 class="text-orange text-uppercase fw-bolder py-1">
+                  Home Pickup
+                </h4>
+                <p class="text-white">
+                  Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+                  Phasellus hendrerit, massa efficitur.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-12 text-center">
+            <a href="#" class="btn btn-dark bg-yellow border-yellow text-dark"
+              >Read more</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Content-->
+    <!--Download Start-->
+    <section class="download">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-sm-12">
+            <div class="info text-center">
+              <h3 class="text-orange text-uppercase fw-bolder">Download</h3>
+              <h1 class="text-dark text-uppercase fw-bolder">
+                Best cab servies
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-7 padding-column">
+            <div class="download-info">
+              <h4 class="text-dark fw-bolder my-4">
+                Downlaod the Cab voucher app free! <br />Get Exciting New Offers
+              </h4>
+              <p class="my-4 para-size">
+                Quisque sollicitudin feugiat risus, eu posuere<br />
+                euismod eu. Phasellus hendrerit, massa effi-<br />citur.
+              </p>
+            </div>
+            <div class="store-button mt-5">
+              <a href=""
+                ><img
+                  src="images/google-play.png"
+                  alt=""
+                  class="img-fluid me-2"
+              /></a>
+              <a href=""
+                ><img src="images/app-store.png" class="img-fluid" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="hand-img">
+              <img src="images/phone-hand.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Download End-->
+    <!--Testimonial Start-->
+    <section class="testimonial">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="testimonial-info text-center">
+              <h3 class="text-orange text-uppercase fw-bolder">
+                Happy Clients
+              </h3>
+              <h1 class="text-light text-uppercase fw-bolder">Testimonials</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <div class="left-test">
+              <p class="text-white">
+                Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.<br />
+                Phasellus hendrerit, massa efficitur.Quisque sollicitudin
+                feu-<br />giat risus.
+              </p>
+              <img src="images/face.png" class="face-image img-fluid" alt="" />
+              <div class="test-info">
+                <h4 class="text-orange fw-bolder">JOHN DOE</h4>
+                <h5 class="text-white fw-bolder">BUSINESS MAN</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="right-test">
+              <p class="text-white">
+                Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.<br />
+                Phasellus hendrerit, massa efficitur.Quisque sollicitudin
+                feu-<br />giat risus.
+              </p>
+              <img src="images/face.png" class="face-image img-fluid" alt="" />
+              <div class="test-info">
+                <h4 class="text-orange fw-bolder">JOHN DOE</h4>
+                <h5 class="text-white fw-bolder">BUSINESS MAN</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Testimonial End-->
+    <!--Call Start-->
+    <section class="call text-center bg-yellow pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="call-text">
+            <h2 class="text-dark fw-bolder text-uppercase">
+              We are Ready to Take Your Call 24 Hours, 7 Days!
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="call-number">
+            <h1 class="text-dark fw-bolder text-uppercase size-font">
+              +123 4567 8900
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Call End-->
+    <!--Footer Start-->
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="about-text">
+              <h4 class="text-white my-4 fw-bolder">ABOUT CAB HUB</h4>
+              <hr class="line-horizontal my-4" />
+              <p class="text-white">
+                Quisque sollicitudin feugiat risus, eu<br />posuere ex euismod
+                eu. Phasellus hen-<br />drerit, massa efficitur.Quisque
+                sollicitu-<br />din feugiat risus, eu posuere ex euis-<br />mod
+                eu.
+              </p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-facebook me-2 text-orange"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-google me-2 text-orange"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-twitter me-2 text-orange"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-instagram me-2 text-orange"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="about-text">
+              <h4 class="text-white my-4 fw-bolder">DOWNLOAD</h4>
+              <hr class="line-horizontal my-4" />
+              <p class="text-white">
+                Quisque sollicitudin feugiat risus, eu<br />posuere ex euismod
+                eu. Phasellus hendrerit,
+              </p>
+              <div class="android mb-3">
+                <span class="text-orange">Android Users</span>
+                <a href=""><i class="fas fa-robot text-white ms-3"></i></a>
+              </div>
+              <div class="ios">
+                <span class="text-orange">IOS Users</span>
+                <a href=""><i class="fab fa-apple text-white ms-5"></i></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="about-text">
+              <h4 class="text-white my-4 fw-bolder">Contact</h4>
+              <hr class="line-horizontal my-4" />
+              <ul>
+                <li>
+                  <i class="fa fa-map-marker text-light"></i>
+                  <p class="text-light">
+                    +123, Main Street, Your City, New York <br />
+                    USA 789456
+                  </p>
+                </li>
+                <li>
+                  <i class="fas fa-mobile-alt text-light"></i>
+                  <p class="text-light">+123 4567 8900</p>
+                </li>
+                <li>
+                  <i class="far fa-envelope text-light"></i>
+                  <p class="text-light">free@psdfreebies.com</p>
+                </li>
+                <li>
+                  <i class="fa fa-mouse-pointer text-light"></i>
+                  <p class="text-light">www.psdfreebies.com</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row top-margin">
+          <div class="col-md-12">
+            <div class="footer-text text-center">
+              <p class="text-white pt-5">Copyright © 2015 PSDfreebies.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Footer End-->
+    <!--Scripts-->
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
